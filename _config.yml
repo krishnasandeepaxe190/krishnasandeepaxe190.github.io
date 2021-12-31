@@ -17,18 +17,21 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "cv.pdf", title: "CV", icon: "home"}
-  - {title: "Blog", file: "blog.md"}
+  - {file: "blog.md", title: "Blog"}
  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "krishnasandeep.ayyagari@my.utsa.edu"}
   - {title: Github, icon: github, url: "https://github.com/krishnasandeepaxe190"}
  # - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/krishnasandeep/"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+ # - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
+remote_theme: niklasbuschmann/contrast@v2.11
+
 plugins:
- - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-feed
