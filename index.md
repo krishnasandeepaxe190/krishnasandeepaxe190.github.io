@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "About Me"
 ---
 
 I'm a Ph.D. candidate
